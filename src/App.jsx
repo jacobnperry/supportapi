@@ -14,9 +14,8 @@ function App() {
     maxBodyLength: Infinity,
     url: 'https://api.getdrip.com/v2/9967522/subscribers/jacob.perry+july27@drip.com',
     headers: { 
-      'User-Agent':"jacobnperry.github.io",
       'Authorization': 'Basic MDY3MmRjNTIyZDNiNjgyN2U0MDY1YzI4NjZiNTkwMjI6',
-      'Access-Control-Allow-Origin': 'none'
+      'Access-Control-Allow-Origin': '*'
     }
   };
   
