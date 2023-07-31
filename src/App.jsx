@@ -12,7 +12,7 @@ function App() {
   let config = {
     method: 'get',
     maxBodyLength: Infinity,
-    url: 'https://api.getdrip.com/v2/9967522/subscribers/jacob.perry+july27@drip.com',
+    url: 'https://api.getdrip.com/v2/9967522/subscribers/',
     headers: { 
       'Authorization': 'Basic MDY3MmRjNTIyZDNiNjgyN2U0MDY1YzI4NjZiNTkwMjI6',
       'Access-Control-Allow-Origin': '*'
